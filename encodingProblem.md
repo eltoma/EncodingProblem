@@ -1,4 +1,4 @@
-# 蛋蛋的关于编码的几个思考题
+# 关于编码的几个思考题
 
 ## 背景
 - 使用c语言为描述语言(如果理解)
@@ -36,7 +36,6 @@ public class Test {
     public static void main(String[] args) throws Exception {
         String a = "LAB108";
         byte[] bytea = a.getBytes("ASCII");
-        
         
         int inta = bytea[0]<< 24;
         inta += bytea[1] << 16;
